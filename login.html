@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Raw Docsite: Login</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/base.css">
+  <link rel="stylesheet" href="/style-simple.css">
+</head>
+
+<body>
+  <div class="box-container box-middled box-isolated">
+    <form class="card box-small-form box-middled" onsubmit="event.preventDefault()">
+      <div class="card-header">
+        <span class="card-title">Login Please</span>
+      </div>
+
+      <div class="card-content">
+        <div class="field">
+          <label class="field-label" for="username">Username</label>
+          <input type="text" class="input" name="username" id="username" placeholder="Enter your username.">
+          <div class="field-message"></div>
+        </div>
+        <div class="field">
+          <label class="field-label" for="password">Password</label>
+          <input type="password" autocorrect="off" autocomplete="off" class="input" name="password" id="password"
+            placeholder="Enter your password.">
+          <div class="field-message"></div>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <span></span>
+        <button class="button">Login</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

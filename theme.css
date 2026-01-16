@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --background-light: hsl(0, 0%, 100%);
+  --background: hsl(0, 0%, 95%);
+  --background-dark: hsl(0, 0%, 70%);
+
+  --text: hsl(0, 0%, 5%);
+  --text-muted: hsl(0, 0%, 30%);
+
+  --border: hsl(0, 0%, 75%);
+
+  --accent-light: hsl(250, 100%, 60%);
+  --accent: hsl(250, 100%, 55%);
+  --accent-dark: hsl(250, 100%, 50%);
+
+  --accent-text: hsl(0, 0%, 95%);
+  --accent-text-muted: hsl(0, 0%, 70%);
+
+  --card-background: hsl(0, 0%, 97.5%);
+  --card-border: hsl(0, 0%, 95%);
+
+  /* Shape */
+  --font: "Geist", sans-serif;
+  --font-sans: "Geist", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+
+  /* Metrics */
+  --screen-sm: 40rem;
+  --screen-md: 48rem;
+  --screen-lg: 64rem;
+  --screen-xl: 80rem;
+  --screen-2xl: 96rem;
+}

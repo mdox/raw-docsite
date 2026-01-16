@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Raw Docsite</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/base.css">
+  <link rel="stylesheet" href="/style-simple.css">
+</head>
+
+<body>
+  <div class="box-container box-isolated box-middled">
+    <button class="button">Hey</button>
+    <button class="button button-outline">Hey</button>
+    <button class="button button-link">Hey</button>
+    <button class="button button-tile">Hey</button>
+    <button class="button button-tile button-outline">Hey</button>
+    <button class="button" disabled>Hey</button>
+    <button class="button button-outline" disabled>Hey</button>
+    <button class="button button-link" disabled>Hey</button>
+    <button class="button button-tile" disabled>Hey</button>
+    <button class="button button-tile button-outline" disabled>Hey</button>
+
+    <p class="text">Hello text</p>
+    <h1 class="text text-title">Hello Title</h1>
+    <h2 class="text text-subtitle">Hello Subtitle</h2>
+    <p class="text text-paragraph">Hello Paragraph</p>
+    <p>
+      <span class="text text-code">Hello Code</span>
+    </p>
+    <p class="text text-bold">Hello Bold</p>
+    <p class="text text-paragraph text-small">Hello Small</p>
+    <p class="text text-paragraph text-small text-muted">Hello Small Muted</p>
+    <p class="text text-italic">Hello Italic</p>
+
+    <blockquote class="box-quote">
+      <p class="text text-italic text-muted">
+        This is a block quote text.
+      </p>
+    </blockquote>
+
+    <ul class="bullet-list">
+      <li><span class="text">List item 1</span></li>
+      <li><span class="text">List item 2</span></li>
+      <ul class="bullet-list">
+        <li><span class="text">List item 1</span></li>
+        <li><span class="text">List item 2</span></li>
+      </ul>
+    </ul>
+
+    <div class="field">
+      <label class="field-label" for="hello">Hello</label>
+      <input type="text" class="input" name="hello" id="hello" placeholder="Enter your hello.">
+      <div class="field-message">Message</div>
+    </div>
+
+    <div class="field">
+      <label class="field-label" for="message">Message</label>
+      <textarea type="text" class="input" name="message" id="message" placeholder="Enter your message."></textarea>
+      <div class="field-message">Message</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Card Title</span>
+      </div>
+
+      <div class="card-content">
+        <p class="text text-paragraph text-muted">Card content...</p>
+      </div>
+
+      <div class="card-footer">
+        <span class="text">Footer</span>
+      </div>
+    </div>
+
+    <img src="" alt="" class="avatar">
+    <img src="" alt="" class="avatar avatar-medium">
+    <img src="" alt="" class="avatar avatar-small">
+    <img src="" alt="" class="avatar avatar-tiny">
+
+    <div class="card box-small-form box-middled">
+      <div class="card-header">
+        <span class="card-title">Login Please</span>
+      </div>
+
+      <div class="card-content">
+        <div class="field">
+          <label class="field-label" for="username">Username</label>
+          <input type="text" class="input" name="username" id="username" placeholder="Enter your username.">
+          <div class="field-message"></div>
+        </div>
+        <div class="field">
+          <label class="field-label" for="password">Password</label>
+          <input type="password" autocorrect="off" autocomplete="off" class="input" name="password" id="password"
+            placeholder="Enter your password.">
+          <div class="field-message"></div>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <span></span>
+        <button class="button">Login</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
